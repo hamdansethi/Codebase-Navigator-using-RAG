@@ -25,18 +25,19 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 🛠️ Setup
 
-    Clone this repo:
+Clone this repo:
 
-git clone https://github.com/YOUR_USERNAME/Codebase-Navigator-using-RAG.git
-cd Codebase-Navigator-using-RAG
+    git clone https://github.com/YOUR_USERNAME/Codebase-Navigator-using-RAG.git
+    cd Codebase-Navigator-using-RAG
 
 Create and activate virtual environment:
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Add your GitHub Token and Google API Key in secrets.toml or via the Streamlit sidebar.
 
@@ -46,37 +47,35 @@ Run the app:
 
 📁 Project Structure
 
-.
-├── chroma_db/               # ChromaDB storage
-├── streamlit_app.py         # Main Streamlit app
-├── final_rag.py             # RAG-related logic
-├── rag.py                   # Helper functions for repo processing
-├── server.py                # Optional server script
-├── requirements.txt         # Python dependencies
-├── saved_repos.pkl          # Saved metadata
-└── .gitignore
+    .
+    ├── chroma_db/               # ChromaDB storage
+    ├── streamlit_app.py         # Main Streamlit app
+    ├── final_rag.py             # RAG-related logic
+    ├── rag.py                   # Helper functions for repo processing
+    ├── server.py                # Optional server script
+    ├── requirements.txt         # Python dependencies
+    ├── saved_repos.pkl          # Saved metadata
+    └── .gitignore
 
 ✨ Example Usage
 
-    Paste a GitHub URL like:
+Paste a GitHub URL like:
 
     https://github.com/YonkoSam/whatsapp-python-chatbot
 
-    Choose the branch (e.g., main)
+Choose the branch (e.g., main)
 
-    Select an action:
+Select an action:
 
-        Add New Repository
+- Add New Repository
+- Load Existing Database
+- Clear and Add Repository
 
-        Load Existing Database
+Ask questions like:
 
-        Clear and Add Repository
+    How is message routing handled?
 
-    Ask questions like:
-
-        How is message routing handled?
-
-        Where is the main entry point of the app?
+    Where is the main entry point of the app?
 
 🔐 Security Note
 

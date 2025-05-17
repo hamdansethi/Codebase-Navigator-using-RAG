@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.db
+*.sqlite3
+*.log
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+*.streamlit_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ChromaDB or custom local DB folder
+chroma_db/
+storage/
+tmp/
